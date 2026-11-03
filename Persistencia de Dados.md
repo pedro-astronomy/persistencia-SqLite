@@ -28,7 +28,7 @@ Para testar o sistema, fiz todo o processo de forma interativa no **BlueJ**, seg
 Aqui realizei a criação e o salvamento do primeiro registro de paciente no banco de dados utilizando o repositório.
 
 > **Print da Operação Create:**  
-> ![Create no BlueJ](images/create.png)  
+> ![Create no BlueJ](create.png)  
 > *Figura 1: Instanciação do objeto paciente e chamada do método create para gravação no banco.*
 
 ---
@@ -37,7 +37,7 @@ Aqui realizei a criação e o salvamento do primeiro registro de paciente no ban
 Para validar se os dados realmente foram salvos, utilizei os métodos de carregamento para buscar as informações diretamente do SQLite.
 
 > **Print da Operação Read:**  
-> ![Read no BlueJ](images/read.png)  
+> ![Read no BlueJ](read.png)  
 > *Figura 2: Consulta dos registros armazenados no banco de dados.*
 
 ---
@@ -46,7 +46,7 @@ Para validar se os dados realmente foram salvos, utilizei os métodos de carrega
 Após cadastrar, testei a alteração de dados. Modifiquei o nome do paciente utilizando o método `setnome` e chamei o método `update` do repositório. O ORMLite atualizou o registro com sucesso na tabela.
 
 > **Print da Operação Update:**  
-> ![Update no BlueJ](images/update.png)  
+> ![Update no BlueJ](update.png)  
 > *Figura 3: Modificação de dados do paciente e execução bem-sucedida do método update.*
 
 ---
@@ -55,7 +55,7 @@ Após cadastrar, testei a alteração de dados. Modifiquei o nome do paciente ut
 Por fim, testei a remoção do registro chamando o método `delete` do repositório passando o objeto correspondente. Uma consulta posterior confirmou que o registro foi excluído da base.
 
 > **Print da Operação Delete:**  
-> ![Delete no BlueJ](images/delete.png)  
+> ![Delete no BlueJ](delete.png)  
 > *Figura 4: Execução do método delete e confirmação da remoção do registro.*
 
 ---
